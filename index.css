@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-image: linear-gradient(to right, #de6666, #f57a7a);
+    font-weight: bold;
+
+}
+
+.items-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #de6666;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 140px;
+}
+
+.bar2 {
+    display: none;
+}
+
+.menu-image {
+    height: 30px;
+    width: 30px;
+}
+
+.header-container {
+    padding: 5%;
+}
+
+.items-container {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+}
+
+.section-container {
+    display: flex;
+    background-image: linear-gradient(to right, #fceab8, #e6ace1);
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+
+.main-burger-image {
+    width: 50%;
+}
+
+.right-container {
+    background-color: #de6666;
+    width: 50%;
+    padding: 2%;
+    margin-left: 3%;
+}
+
+.article-container {
+    background-image: linear-gradient(to right, #fceab8, #e6ace1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    height: 100%;
+
+
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+
+
+}
+
+.paragraph {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.image1 {
+    margin-bottom: 5%;
+    margin-right: 5%;
+    flex: 1;
+    height: 120px;
+}
+
+.image3 {
+    width: 45%;
+    margin-bottom: 3%;
+    flex: 1;
+    margin-left: 2%;
+    height: 100%;
+
+}
+
+.second-container {
+    display: none;
+}
+
+
+
+.article-heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 569px) {
+
+
+    .header-container {
+        padding: 5%;
+    }
+
+
+}
+
+@media screen and (max-width: 668px) {
+    .items-container {
+        display: none;
+    }
+
+    .section-container {
+        flex-direction: column;
+    }
+
+    .main-burger-image {
+        width: 100%;
+        height: 50%;
+    }
+
+    .menu-image {
+        height: 30px;
+        width: 30px;
+        padding: 10px;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .bar2 {
+        display: flex;
+    }
+
+    .article-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-container {
+        width: 90%;
+
+        padding: 0;
+        padding-left: 10px;
+    }
+
+    .second-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .image-container {
+        display: none;
+    }
+
+    .image {
+        width: 30%;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+
+    .article-heading {
+        font-size: 15px;
+    }
+}
+
