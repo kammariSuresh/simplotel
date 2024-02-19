@@ -4,7 +4,11 @@ body {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+.main-container{
+    max-width: 100vw;
+    
 
+}
 .navbar {
     display: flex;
     flex-direction: row;
@@ -142,9 +146,13 @@ li {
 
 }
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 769px) {
     .items-container {
         display: none;
+    }
+
+    .bar2{
+        display: block;
     }
 
     .section-container {
@@ -157,10 +165,12 @@ li {
     }
 
     .menu-image {
+        
         height: 30px;
         width: 30px;
         padding: 10px;
     }
+
 
     .navbar {
         width: 100%;
@@ -180,7 +190,7 @@ li {
     }
 
     .right-container {
-        width: 90%;
+        width: 96%;
 
         padding: 0;
         padding-left: 10px;
@@ -196,9 +206,22 @@ li {
         display: none;
     }
 
-    .image {
+    .image1 {
         width: 30%;
-        padding: 1%;
+        padding-left: 5%;
+        padding-right: 0px;
+        height: fit-content;
+        margin-bottom: 2%;
+    }
+    .image2 {
+        width: 30%;
+        padding-right: 2%;
+        /* padding-left: 5px; */
+        margin-bottom: 2%;
+    }
+    .image3 {
+        width: 30%;
+        padding-right: 2%;
         margin-bottom: 2%;
     }
 
